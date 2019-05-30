@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: #000;
+    font-family: "Comic Sans MS";
+    font-size: 19px;
+}
+
+body{
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 80px;;
+    padding: 20px;
+    background-color: #17635e;
+}
+
+#content{
+    background-color: #000;
+    color: #000;
+    background-image: url("./img/backgroundOP.jpg");
+    background-size: 100%;
+    padding: 100px 0 0 0;
+    height: 100%;
+    clear: both;
+}
+
+footer{
+    clear: both;
+    background-color: #17635e;
+    height: 50px;
+    text-align: center;
+    padding: 30px 0 0 0;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+    padding: 30px 180px 0 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #000;
+}
+
+.efeito{
+    background-color: rgba(255,255,255, 0.5);
+    padding: 80px 0 80px 0;
+}
+
+#logo{
+    float: left;
+}
+
+#menu{
+    margin-top: 30px;
+    float: right;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 53px 20px;
+    text-shadow: 0.5px 0.5px 0.5px #000;
+}
+
+#menu a:hover{
+    background-color: rgba(0,0,0, 0.5);
+    color: #17635e;
+    -webkit-transition: 0.8s;
+}
